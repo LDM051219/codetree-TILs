@@ -7,8 +7,8 @@ int main() {
     b=2;
     c=3;
 
-    c = a;
-    c = b;
+    a = c;
+    b = c;
 
     printf("%d %d %d",a,b,c);
     return 0;
