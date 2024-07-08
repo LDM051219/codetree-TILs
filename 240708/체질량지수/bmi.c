@@ -3,15 +3,16 @@
 
 int main() {
     int h,w;
-    double b;
+    int b;
 
     scanf("%d %d",&h,&w);
 
     b = (10000 * w) / (h*h);
 
+    printf("%d\n",b);
     if(b >= 25) {
 
-        printf("%.0lf\nObesity",b);
+        printf("Obesity");
     }
 
 
