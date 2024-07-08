@@ -9,6 +9,6 @@ int main() {
     printf("pass");
     }
     else
-    printf("more score", 80 - n);
+    printf("%d more score", 80 - n);
     return 0;
 }
