@@ -11,7 +11,7 @@ int main() {
 
     if(b >= 25) {
 
-        printf("%d\nObesity",(int)b);
+        printf("%.0lf\nObesity",b);
     }
 
 
