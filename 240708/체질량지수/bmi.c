@@ -2,9 +2,10 @@
 
 
 int main() {
-    double h,w,b;
+    int h,w;
+    double b;
 
-    scanf("%lf %lf",&h,&w);
+    scanf("%d %d",&h,&w);
 
     b = (10000 * w) / (h*h);
 
