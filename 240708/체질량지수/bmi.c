@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <math.h>
+
 
 int main() {
     double h,w,b;
 
     scanf("%lf %lf",&h,&w);
 
-    b = (10000 * w) / pow(h,2);
+    b = (10000 * w) / (h*h);
 
     if(b >= 25) {
 
