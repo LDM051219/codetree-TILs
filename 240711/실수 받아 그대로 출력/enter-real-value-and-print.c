@@ -5,7 +5,7 @@ int main() {
 
     scanf("%lf",&n);
 
-    printf("")
+    printf("%.2lf",n);
 
 
 
