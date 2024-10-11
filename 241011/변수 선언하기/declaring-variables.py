@@ -1,3 +1,3 @@
-a,c = 3,'c'
+a,c = 3,'C'
 print(a)
 print(c)
