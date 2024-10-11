@@ -1,5 +1,5 @@
 a = 5
 b = 3
-b = a
+b = 5
 print(a)
 print(b)
