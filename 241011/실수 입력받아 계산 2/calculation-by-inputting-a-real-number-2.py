@@ -1,2 +1,3 @@
 a = float(input())
-print("%.2f" %a+1.5)
+b = a + 1.5
+print("%.2f" %a)
