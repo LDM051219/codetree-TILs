@@ -1,8 +1,7 @@
-a = int(input())
+# 변수 선언, 입력
+n = int(input())
 
-
-if a <= 0:
-    print(a)
-    print("minus")
-else:
-    print("")
+# 출력
+print(n)
+if n < 0:
+	print("minus")
